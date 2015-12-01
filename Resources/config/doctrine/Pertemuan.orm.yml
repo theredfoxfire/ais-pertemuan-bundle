@@ -1,0 +1,31 @@
+Ais\PertemuanBundle\Entity\Pertemuan:
+ type: entity
+ table: pertemuan
+ id:
+  id: 
+   type: integer
+   generator: { strategy: AUTO }
+ fields:
+  jadwal_id:
+   type: integer
+  tanggal:
+   type: date
+  mulai:
+   type: string
+   length: 10
+  akhir:
+   type: string
+   length: 10
+  hari_id:
+   type: integer
+  ruang_id:
+   type: integer
+  materi:
+   type: text
+  sesuai:
+   type: boolean
+  keterangan:
+   type: text
+  is_delete:
+   type: boolean
+   nullable: true
