@@ -16,6 +16,15 @@
             <argument>%ais_pertemuan.pertemuan.class%</argument>
             <argument type="service" id="form.factory"></argument>
         </service>
+        <service id="ais_pertemuan.pertemuan.manager" class="Doctrine\ORM\EntityManager" factory-service="doctrine" factory-method="getManagerForClass">
+			<argument>%ais_pertemuan.pertemuan.class%</argument>
+		</service>
+        
+        <service id="ais_pertemuan.pertemuan.repository" 
+			class="Ais\PertemuanBundle\Repository\PertemuanRepository"
+			factory-service="ais_pertemuan.pertemuan.manager" factory-method="getRepository">
+				<argument>%ais_pertemuan.pertemuan.class%</argument>
+		</service>
     </services>
 
 </container>

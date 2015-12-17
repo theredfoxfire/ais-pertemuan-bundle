@@ -1,6 +1,7 @@
 Ais\PertemuanBundle\Entity\Pertemuan:
  type: entity
  table: pertemuan
+ repositoryClass: Ais\PertemuanBundle\Repository\PertemuanRepository
  id:
   id: 
    type: integer

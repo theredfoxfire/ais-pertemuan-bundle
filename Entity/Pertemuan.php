@@ -316,4 +316,3 @@ class Pertemuan implements PertemuanInterface
         return $this->is_delete;
     }
 }
-
