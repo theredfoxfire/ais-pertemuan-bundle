@@ -1,5 +1,5 @@
 {
-    "name" : "Ais/PertemuanBundle",
+    "name" : "ais/pertemuanbundle",
     "description" : "A bundle filled with Pertemuan",
     "type" : "symfony-bundle",
     "authors" : [{
