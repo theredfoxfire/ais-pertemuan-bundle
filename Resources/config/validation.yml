@@ -1,7 +1,7 @@
 # src/Ais/PertemuanBundle/Resources/config/validation.yml
 Ais\PertemuanBundle\Entity\Pertemuan:
     properties:
-        jadwalid:
+        jadwal_id:
             - NotBlank: ~
             - NotNull: ~
             - Length:
